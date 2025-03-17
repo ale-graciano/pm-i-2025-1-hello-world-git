@@ -5,17 +5,14 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-input{
+input, input:focus{
     background-color: black;
     color: greenyellow;
     border: 1px dashed greenyellow ;
     padding: 0.5rem;
-}
-
-input:focus{
-    border: 1px dashed greenyellow;
     outline: none;
 }
+
 
 button{
     background-color: black;
